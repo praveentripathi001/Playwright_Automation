@@ -42,7 +42,20 @@ export default defineConfig({
         viewport: {width: 1536, height:730}
       },
     },
-
+    {
+      name: 'firefoiox',
+      use: { 
+        ...devices['Desktop firefox'],
+        viewport: {width: 1536, height:730}
+      },
+    },
+    {
+      name: 'webkit',
+      use: {
+        ...devices['Desktop Safari'],
+        viewport: { width: 1536, height: 730 },
+      },
+    },
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
