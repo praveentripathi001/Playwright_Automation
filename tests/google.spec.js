@@ -7,7 +7,6 @@ test("Verifiy Application Title", async function({page}) {
     const title = await page.title()
     console.log("Page Title is: "+title);
     expect(title).toBe("Google")
-    expect(page).toHaveTitle("Google")
     console.log("Logged out succesfully.");
     
     
